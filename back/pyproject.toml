@@ -1,0 +1,19 @@
+[tool.poetry.scripts]
+start = "back.main:start"
+
+[tool.poetry]
+name = "back"
+version = "0.1.0"
+description = ""
+authors = ["Ivan <ivan.lyukshin@webpp.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.105.0"}
+uvicorn = {extras = ["standard"], version = "^0.25.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
