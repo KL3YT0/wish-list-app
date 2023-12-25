@@ -1,8 +1,8 @@
 [tool.poetry.scripts]
-start = "back.main:start"
+start = "app.main:start"
 
 [tool.poetry]
-name = "back"
+name = "app"
 version = "0.1.0"
 description = ""
 authors = ["Ivan <ivan.lyukshin@webpp.ru>"]
